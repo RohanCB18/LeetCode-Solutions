@@ -1,6 +1,6 @@
 #  LeetCode Solutions
 
-This repository contains my **LeetCode problem solutions**, implemented in ** Java**.  
+This repository contains **LeetCode problem solutions**, implemented in ** Java**.  
 It serves as a **personal practice log** to improve **Data Structures & Algorithms (DSA)** and problem-solving skills.
 
 ##  Features:
