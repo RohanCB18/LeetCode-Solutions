@@ -28,3 +28,29 @@ class Solution {
         return true;
     }
 }
+
+/*
+ Dry Run Examples:
+
+ Case 1: True Example
+Input: n = 12
+
+Step-by-Step Execution:
+1. n = 12 → 12 % 3 = 0 (valid) → n = 12 / 3 = 4
+2. n = 4  → 4 % 3 = 1 (valid)  → n = 4 / 3 = 1
+3. n = 1  → 1 % 3 = 1 (valid)  → n = 1 / 3 = 0 (end)
+
+Since all digits in base-3 were 0 or 1, returns **true**.
+
+
+
+ Case 2: False Example
+Input: n = 21
+
+Step-by-Step Execution:
+1. n = 21 → 21 % 3 = 0 (valid) → n = 21 / 3 = 7
+2. n = 7  → 7 % 3 = 1 (valid)  → n = 7 / 3 = 2
+3. n = 2  → 2 % 3 = **2 (not allowed!)** → return **false**.
+
+ Since a digit in base-3 was `2`, return **false**.
+*/
