@@ -5,14 +5,14 @@
 # Example:
 1. [5, 4, 5, 2, 3] ; k = 2
    Here, k = min(nums).
-   And number of distinct elements other than k=3.
+   And number of distinct elements other than k=3.\n
    Hence, answer is 3
 
 2. [2, 1, 2] ; k = 2
-   Here, k > min(nums).
-   Hence, with any number of operations 1 cannot be made to be 2.
+   Here, k > min(nums).\n
+   Hence, with any number of operations 1 cannot be made to be 2.\n
    Hence, return -1.
 
 # Complexity
-Time complexity: O(n) -> As whole array is traversed once.
+Time complexity: O(n) -> As whole array is traversed once.\n
 Space complexity: O(n) -> As a new set is created to keep track of elements.
