@@ -1,4 +1,4 @@
-# LeetCode 13358 - Count Substrings with Three Distinct Characters
+# LeetCode 1358 - Count Substrings with Three Distinct Characters
 
 ## Problem Statement:
 Given a string `s`, count the number of substrings that contain **at least** three distinct characters.
